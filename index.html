@@ -56,7 +56,7 @@
     <h1 class="hero-name">John <em>Seo</em></h1>
     <p class="hero-title">Marketing × Design × Engineering — built for the full picture.</p>
     <p class="hero-desc">
-      Over <strong>12 years</strong>, I've grown from a product marketer at a global company to a UI/UX designer at a web agency, and then a full-stack engineer at a B2B SaaS startup. Every role has shared one constant: <strong>making products that people actually use</strong>.
+      Over <strong>13 years</strong>, I've grown from a product marketer at a global company to a UI/UX designer at a web agency, and then a full-stack engineer at a B2B SaaS startup. Every role has shared one constant: <strong>making products that people actually use</strong>.
     </p>
     <div class="hero-cta">
       <a href="#career" class="btn-primary">View my journey →</a>
@@ -64,7 +64,7 @@
     </div>
   </div>
   <div class="hero-stats">
-    <div class="stat"><div class="stat-num">12+</div><div class="stat-label">Years of Career</div></div>
+    <div class="stat"><div class="stat-num">13+</div><div class="stat-label">Years of Career</div></div>
     <div class="stat"><div class="stat-num">150+</div><div class="stat-label">Countries Reached</div></div>
     <div class="stat"><div class="stat-num">40+</div><div class="stat-label">Projects Built</div></div>
   </div>
@@ -81,7 +81,7 @@
     <div class="reveal">
       <h2 class="about-headline">I don't just build features —<br>I build <em>products</em>.</h2>
       <div class="about-body">
-        <p>Most people pick a lane — marketer, designer, or engineer. I've spent 12 years deliberately refusing to. Not out of indecision, but because the best digital products are built by people who understand all three.</p>
+        <p>Most people pick a lane — marketer, designer, or engineer. I've spent 13 years deliberately refusing to. Not out of indecision, but because the best digital products are built by people who understand all three.</p>
         <p>At LG Electronics, I shipped AI TV experiences to 3,000+ stores across 15 countries. At SplitMango, I designed and built web products for local businesses from a blank canvas. At PayShepherd, I created a B2B SaaS platform from its MVP foundations all the way through architectural modernization.</p>
         <p>My edge isn't that I'm the best marketer, the best designer, or the best engineer. It's that I'm all three — and I know how to move fluently between them to ship things that actually work.</p>
       </div>
@@ -134,6 +134,23 @@
     <span class="section-num">02</span>
   </div>
   <div class="timeline">
+
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-period">2026 — Present</div>
+      <div class="timeline-company">Independent — AI-Augmented Builder</div>
+      <div class="timeline-role">Full-Stack Developer · AI-Integrated Projects</div>
+      <div class="timeline-body">
+        Deliberately stepped back from employment to go deep on AI-augmented development. Building full-stack products from scratch — solo, but not alone: AI agents serve as my primary engineering collaborator, handling everything from architecture review to code generation and debugging. Projects span serverless backend design with AWS Lambda and DynamoDB, modern frontend frameworks (Next.js, React, TypeScript), and Claude API integration for intelligent features. Also exploring AWS services beyond EC2/S3 — including Cognito, API Gateway, CloudWatch, and Amplify — to understand the full cloud-native stack. Every project is designed, built, deployed, and iterated on independently.
+      </div>
+      <div class="timeline-tags">
+        <span class="tag">Claude Code</span><span class="tag">Codex</span>
+        <span class="tag">Next.js</span><span class="tag">React</span><span class="tag">TypeScript</span>
+        <span class="tag">AWS Lambda</span><span class="tag">DynamoDB</span><span class="tag">S3</span>
+        <span class="tag">API Gateway</span><span class="tag">Cognito</span><span class="tag">Python</span>
+      </div>
+      <span class="badge-highlight">AI-first development workflow</span>
+    </div>
 
     <div class="timeline-item reveal">
       <div class="timeline-dot"></div>
@@ -230,9 +247,32 @@
     <span class="section-num">03</span>
   </div>
   <div class="projects-grid">
-
     <div class="project-card reveal">
       <div class="project-num">01</div>
+      <div class="project-title">Oh My Money — AI Receipt Scanner</div>
+      <div class="project-desc">Serverless expense tracker that turns a photo of any receipt into structured financial data. Snap → upload to S3 → AWS Lambda triggers Claude Vision API to parse merchant, items, total, and category → stored in DynamoDB. Handles HEIC, JPEG, and PDF formats; expands grocery abbreviations to plain-English names.</div>
+      <div class="project-meta">
+        <span class="project-tag">Claude API (Vision)</span><span class="project-tag">AWS Lambda</span>
+        <span class="project-tag">S3</span><span class="project-tag">DynamoDB</span>
+        <span class="project-tag">API Gateway</span><span class="project-tag">Python</span>
+      </div>
+      <div class="project-impact">Built end-to-end with Claude Code · zero-server, fully serverless</div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">02</div>
+      <div class="project-title">ReadyVan — Immigrant Settlement Platform</div>
+      <div class="project-desc">Full-stack web platform for a Vancouver-based settlement service helping Korean immigrants navigate arrival logistics — airport pickup, school enrollment, banking, and government paperwork. Built with Next.js using the App Router. Includes a client-facing marketing site, admin dashboard with per-client dynamic routes, blog CMS with Tiptap rich-text editor, and a services booking flow.</div>
+      <div class="project-meta">
+        <span class="project-tag">Next.js</span><span class="project-tag">React</span>
+        <span class="project-tag">TypeScript</span><span class="project-tag">Tiptap</span>
+        <span class="project-tag">App Router</span>
+      </div>
+      <div class="project-impact">Architected & built solo with Claude Code · full admin + public site</div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">03</div>
       <div class="project-title">3PIA — AI Invoice Anomaly Detection</div>
       <div class="project-desc">Designed and proposed an AI agent pipeline using Claude Sonnet to flag anomalous 3rd-party contractor invoices. Won company-wide innovation contest, shipped to production.</div>
       <div class="project-meta">
@@ -242,7 +282,7 @@
     </div>
 
     <div class="project-card reveal">
-      <div class="project-num">02</div>
+      <div class="project-num">04</div>
       <div class="project-title">LEMs Aggregation Module</div>
       <div class="project-desc">Reimagined the core billing view — from a static per-project table to a dynamic multi-vendor, multi-date aggregate dashboard. First solo project at PayShepherd.</div>
       <div class="project-meta">
@@ -252,7 +292,7 @@
     </div>
 
     <div class="project-card reveal">
-      <div class="project-num">03</div>
+      <div class="project-num">05</div>
       <div class="project-title">Branch Consolidation Strategy</div>
       <div class="project-desc">Redesigned the multi-client Git branch architecture, grouping clients by shared operational profiles. Reduced 20 branches across 8 clients to 3 branches across 14 clients.</div>
       <div class="project-meta">
@@ -262,7 +302,7 @@
     </div>
 
     <div class="project-card reveal">
-      <div class="project-num">04</div>
+      <div class="project-num">06</div>
       <div class="project-title">BI Migration: Looker → AWS QuickSight</div>
       <div class="project-desc">Led end-to-end BI stack migration from Google Looker to AWS QuickSight. Optimized query architecture using Amazon Athena, templatized shared report logic for reuse.</div>
       <div class="project-meta">
@@ -272,7 +312,7 @@
     </div>
 
     <div class="project-card reveal">
-      <div class="project-num">05</div>
+      <div class="project-num">07</div>
       <div class="project-title">LG AI TV In-store Demo Kit</div>
       <div class="project-desc">When AI was still a buzzword in 2018, built 20 real-life voice-control demo scenes and a physical button-based demo device to let shoppers experience it hands-on in-store.</div>
       <div class="project-meta">
@@ -282,7 +322,7 @@
     </div>
 
     <div class="project-card reveal">
-      <div class="project-num">06</div>
+      <div class="project-num">08</div>
       <div class="project-title">Vancouver Heritage Site Finder</div>
       <div class="project-desc">Solo end-to-end: designed the UX in Figma, built the full web application. A tool to discover and explore Vancouver's designated heritage buildings with rich location data.</div>
       <div class="project-meta">
@@ -290,7 +330,6 @@
       </div>
       <div class="project-impact">Design & Dev — solo from concept to launch</div>
     </div>
-
   </div>
 
   <div style="text-align:center; padding: 48px 0 8px;">
@@ -322,33 +361,43 @@
   </div>
   <div class="skills-grid">
     <div class="skill-group reveal">
+      <div class="skill-group-title">AI & Development Tools</div>
+      <div class="skill-items">
+        <div class="skill-item">Claude Code</div>
+        <div class="skill-item">Anthropic Claude API</div>
+        <div class="skill-item">AI-Augmented Development</div>
+        <div class="skill-item">Prompt Engineering</div>
+        <div class="skill-item">Claude Vision (multimodal)</div>
+      </div>
+    </div>
+    <div class="skill-group reveal">
       <div class="skill-group-title">Frontend</div>
       <div class="skill-items">
         <div class="skill-item">JavaScript (ES6)</div>
+        <div class="skill-item">TypeScript</div>
+        <div class="skill-item">Next.js / React</div>
         <div class="skill-item">Tailwind CSS</div>
         <div class="skill-item">HTML / CSS</div>
-        <div class="skill-item">DataTable</div>
-        <div class="skill-item">jQuery → Vanilla JS</div>
       </div>
     </div>
     <div class="skill-group reveal">
       <div class="skill-group-title">Backend & Data</div>
       <div class="skill-items">
         <div class="skill-item">PHP 8.0</div>
+        <div class="skill-item">Python</div>
         <div class="skill-item">REST API</div>
         <div class="skill-item">MySQL 8.0</div>
         <div class="skill-item">ETL Pipeline</div>
-        <div class="skill-item">RabbitMQ</div>
       </div>
     </div>
     <div class="skill-group reveal">
       <div class="skill-group-title">Cloud & DevOps</div>
       <div class="skill-items">
-        <div class="skill-item">AWS EC2 / S3</div>
-        <div class="skill-item">AWS QuickSight</div>
-        <div class="skill-item">Docker</div>
-        <div class="skill-item">Bitbucket / Git</div>
-        <div class="skill-item">Jira / Confluence</div>
+        <div class="skill-item">AWS Lambda</div>
+        <div class="skill-item">AWS S3 / DynamoDB</div>
+        <div class="skill-item">API Gateway / Cognito</div>
+        <div class="skill-item">AWS EC2 / QuickSight / Athena</div>
+        <div class="skill-item">Docker / Git</div>
       </div>
     </div>
     <div class="skill-group reveal">
@@ -368,7 +417,7 @@
 <section class="contact" id="contact">
   <span class="contact-pre reveal">Get in touch</span>
   <h2 class="contact-headline reveal">Let's build something<br><em>worth using.</em></h2>
-  <p class="contact-sub reveal">Looking for someone who can think across the full product stack — from strategy and design to engineering? Let's talk.</p>
+  <p class="contact-sub reveal">Looking for someone who can think across the full product stack — from strategy and design to engineering — and ship faster with AI? Let's talk.</p>
   <div class="contact-links reveal">
     <a href="mailto:jonneyseo@gmail.com" class="contact-link">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
@@ -386,7 +435,7 @@
 
 <footer>
   <span>© 2026 John Seo</span>
-  <span>Marketer · Designer · Engineer</span>
+  <span>Marketer · Designer · Engineer · AI Builder</span>
 </footer>
 
 <script>
